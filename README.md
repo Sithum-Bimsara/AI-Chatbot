@@ -140,6 +140,17 @@ Example response:
   "answer": "The capital of France is Paris."
 }
 ```
+## Screenshots
+
+### Chatbot Interface
+![Chatbot Interface](screenshots/chatbot-ui.png)
+
+### Example Chat
+![Example Chat](screenshots/example-chat(1).png)
+![Example Chat](screenshots/example-chat(2).png)
+![Example Chat](screenshots/example-chat(3).png)
+
+
 
 ## License
 
