@@ -102,7 +102,7 @@ npm install
 Start the frontend server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The frontend server will start on http://localhost:5173 (or the port shown in your terminal).
