@@ -149,6 +149,7 @@ Example response:
 ![Example Chat](screenshots/example-chat(1).png)
 ![Example Chat](screenshots/example-chat(2).png)
 ![Example Chat](screenshots/example-chat(3).png)
+![Example Chat](screenshots/example-chat(4).png)
 
 
 
