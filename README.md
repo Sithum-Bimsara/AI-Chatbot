@@ -57,73 +57,73 @@ git clone https://github.com/Sithum-Bimsara/AI-Chatbot.git
 
 ### Step 2: Set up the backend
 
-1. Navigate to the `server` folder:
+Navigate to the server folder:
 
 ```bash
 cd server
 ```
 
-2. Install backend dependencies:
+Install backend dependencies:
 
 ```bash
 npm install
 ```
 
-3. Create a `.env` file in the `server` directory and add your OpenAI API key:
+Create a .env file in the server directory and add your OpenAI API key. The .env file should contain the following line:
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key
 ```
 
+Replace your_openai_api_key with your actual OpenAI API key.
+
+Start the backend server:
+
+```bash
+node index.js
+```
+
+The backend server will start on http://localhost:5000.
+
 ### Step 3: Set up the frontend
 
-1. Navigate to the `client` folder:
+Navigate to the client folder:
 
 ```bash
 cd chatbot-ui
 ```
 
-2. Install frontend dependencies:
+Install frontend dependencies:
 
 ```bash
 npm install
 ```
 
-### Step 4: Start the backend and frontend
-
-1. Run the backend server:
+Start the frontend server:
 
 ```bash
-cd server
-node index.js
-```
-
-The backend server will start on `http://localhost:5000`.
-
-2. Run the frontend server:
-
-```bash
-cd client
 npm start
 ```
 
-The frontend server will start on `http://localhost:5173` (or the port shown in your terminal).
+The frontend server will start on http://localhost:5173 (or the port shown in your terminal).
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:5173`.
-2. Type your question in the input field and click "Send."
-3. Wait for the AI to respond. The answer will be displayed below the input field.
+- Open your browser and navigate to http://localhost:5173.
+- Type your question in the input field and click "Send."
+- Wait for the AI to respond. The answer will be displayed below the input field.
 
 ## API Reference
 
-### POST `/chat`
+### POST /chat
 
-- **Request Body**:
-  - `question`: The user's input text.
+Request Body:
 
-- **Response**:
-  - `answer`: The AI's response to the question.
+- `question`: The user's input text.
+
+Response:
+
+- `answer`: The AI's response to the question.
 
 Example request body:
 
@@ -143,4 +143,4 @@ Example response:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
